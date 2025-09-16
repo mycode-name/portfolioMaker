@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #30363f;
+  border-bottom: 1px solid #30363f;
+}
+
+.company-name {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: aliceblue;
+}
+
+.device-icons {
+  display: flex;
+  gap: 15px;
+  font-size: 1.5em;
+  color: aliceblue;
+}
+
+.device-icon {
+  cursor: pointer;
+  /* You can add hover effects here if you like */
+}
+
+.header-button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.save-button {
+  margin-right: 10px;
+  background-color: #daad4b;
+  color: aliceblue;
+}
+
+.publish-button {
+  border: 1px solid #1ba7d6;
+  background-color: #1ba7d6;
+  color: aliceblue;
+}
